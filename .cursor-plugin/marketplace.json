@@ -1,0 +1,14 @@
+{
+  "name": "bidandscale",
+  "owner": {
+    "name": "Bid & Scale",
+    "email": "hello@bidandscale.com",
+    "url": "https://bidandscale.com"
+  },
+  "plugins": [
+    {
+      "name": "bidandscale",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bidandscale",
+  "description": "Google Ads for AI agents: stop paying for clicks that never convert. Run your accounts from Claude Code through the Bid & Scale MCP server: audits, fixes with the numbers behind them, and the approval queue. Includes slash commands, a reference skill and step-by-step workflow skills.",
+  "version": "0.6.0",
+  "author": {
+    "name": "Bid & Scale"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bidandscale",
+  "interface": {
+    "displayName": "Bid & Scale Ads"
+  },
+  "plugins": [
+    {
+      "name": "bidandscale",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Operations"
+    }
+  ]
+}

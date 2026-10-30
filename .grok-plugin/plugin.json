@@ -1,0 +1,30 @@
+{
+  "name": "bidandscale",
+  "version": "0.6.0",
+  "description": "Manage Google Ads from chat: review performance, find wasted spend, audit accounts, follow a ranked optimization plan toward your targets, and review proposals under configurable approval controls.",
+  "logo": "assets/icon.png",
+  "author": {
+    "name": "Bid & Scale",
+    "email": "hello@bidandscale.com",
+    "url": "https://bidandscale.com"
+  },
+  "homepage": "https://bidandscale.com/docs/mcp-reference",
+  "repository": "https://github.com/bidandscale/bidandscale-plugin",
+  "license": "MIT",
+  "keywords": [
+    "google ads",
+    "ppc",
+    "search ads",
+    "paid search",
+    "sem",
+    "ad optimization",
+    "google ads audit",
+    "wasted spend",
+    "negative keywords",
+    "search terms",
+    "roas",
+    "cpa",
+    "bid management",
+    "budget pacing"
+  ]
+}

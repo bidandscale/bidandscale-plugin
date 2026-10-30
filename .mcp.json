@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bidandscale": {
+      "type": "http",
+      "url": "${BIDANDSCALE_MCP_URL:-https://bidandscale.com/api/mcp}"
+    }
+  }
+}

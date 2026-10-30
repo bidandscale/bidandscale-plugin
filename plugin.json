@@ -1,0 +1,63 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bidandscale",
+  "version": "0.6.0",
+  "description": "Manage Google Ads from chat: review performance, find wasted spend, audit accounts, follow a ranked optimization plan toward your targets, and review proposals under configurable approval controls.",
+  "author": {
+    "name": "Bid & Scale",
+    "email": "hello@bidandscale.com",
+    "url": "https://bidandscale.com"
+  },
+  "homepage": "https://bidandscale.com/docs/mcp-reference",
+  "repository": "https://github.com/bidandscale/bidandscale-plugin",
+  "license": "MIT",
+  "keywords": [
+    "google ads",
+    "ppc",
+    "search ads",
+    "paid search",
+    "sem",
+    "ad optimization",
+    "google ads audit",
+    "wasted spend",
+    "negative keywords",
+    "search terms",
+    "roas",
+    "cpa",
+    "bid management",
+    "budget pacing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Bid & Scale Ads",
+        "shortDescription": "Audit & optimize Google Ads",
+        "longDescription": "Bid & Scale helps businesses manage Google Ads directly from a conversation. Connect your Google Ads account once, then review performance, find wasted spend and approve changes in plain language.\n\nWhat you can do:\n- Check performance: see spend, clicks, conversions, cost per acquisition (CPA) and return on ad spend (ROAS) by campaign, keyword, search term, ad, device, location or hour, and compare results with your daily spend goal, minimum ROAS and target CPA range.\n- Audit an account: find broken conversion tracking, search terms that spend without converting, weak keywords and ads, and structural problems, ranked by their estimated impact on your budget.\n- Optimize step by step: follow a prioritized plan and propose changes to negative keywords, keyword status, bids, budgets and targets, each with the reason behind it.\n- Stay in control: review pending changes and approve or reject each one individually. Eligible applied changes with saved prior state can be reverted.\n- Set up accounts: connect Google Ads, import ad accounts, check sync status and set your performance targets.\n\nBuilt for founders, marketers and agencies managing Google Ads for one business or many.\n\nHow changes are applied: every change starts as a proposal. It is validated with Google Ads first, then checked against a published policy. Only small, limited changes can apply automatically, and you can turn that off for your workspace. All other changes wait in an approval queue until a person approves them. New campaigns, ad groups and ads can be created paused, eligible applied changes with saved prior state can be reverted. Campaign deletion is not available through this plugin.\n\nLimitations: Bid & Scale supports Google Ads only; it does not manage Meta, Microsoft, Apple or TikTok ads. It does not change billing or payment settings. Connecting an account requires a Bid & Scale account and a one-time authorization through Google's own consent screen on the Bid & Scale settings page; Google Ads access is never requested in chat.",
+        "developerName": "Bid & Scale",
+        "category": "Business & Operations",
+        "capabilities": [
+          "Account overview against spend, ROAS and CPA targets",
+          "Audit: tracking, wasted spend, quality, structure",
+          "Ranked optimization plan",
+          "Search term, keyword, ad and segment analysis",
+          "Proposals for negatives, keywords, bids and budgets",
+          "Approval queue with per-change verdicts and revert",
+          "Account setup: connect, import, sync, targets"
+        ],
+        "websiteURL": "https://bidandscale.com",
+        "supportURL": "https://bidandscale.com/docs/support",
+        "privacyPolicyURL": "https://bidandscale.com/privacy",
+        "termsOfServiceURL": "https://bidandscale.com/terms",
+        "defaultPrompt": [
+          "How are my campaigns pacing against my targets this month?",
+          "Which search terms are wasting money?",
+          "What changes are waiting for my approval?"
+        ],
+        "brandColor": "#2f62d5",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/bidandscale-get-started/SKILL.md"
+    }
+  }
+}
